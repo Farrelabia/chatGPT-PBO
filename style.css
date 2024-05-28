@@ -1,0 +1,112 @@
+body {
+  font-family: var(--font-family);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* .header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+.login-container {
+  padding: 20px 30px;
+  max-width: 350px;
+  width: 100%;
+}
+
+.WelcomeText {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 8rem;
+}
+
+.text-field {
+  position: relative;
+  margin: 10px 2.5px 20px 2.5px;
+}
+
+input {
+  position: relative;
+  display: inline-block;
+  border: 1px solid rgb(185, 184, 184);
+  border-radius: 5px;
+  background-color: #fafafa;
+  font-size: 18px;
+  padding: 28px;
+  outline: none;
+  width: 400px;
+  height: 36px;
+  left: -2px;
+  right: 0;
+}
+
+input:focus {
+      border: 1px solid #10a37f;
+      background-color: #fff;
+      font-size: 18px;
+  }
+
+label {
+  color: #999;
+  position: absolute;
+  pointer-events: none;
+  left: 10px;
+  top: 19px;
+  transition: 0.2s;
+  font-family: "Ubuntu", sans-serif;
+}
+
+input:focus ~ label, input:valid ~ label {
+  top: -10px;
+  left: 15px;
+  font-size: small;
+  color: #10a37f;
+  background-color: #ffff;
+  padding:0 5px 0 5px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #10a37f;
+  height: 60px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+button:hover {
+  background-color: #10a37f;
+}
+
+.otherChoice {
+display: flex;
+justify-content: center;
+font-family: "Ubuntu", sans-serif;
+font-size: 16px;
+}
+
+.otherChoice a {
+  color: #10a37f;
+}
+
+.pembatas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-family: "Ubuntu", sans-serif;
+}
